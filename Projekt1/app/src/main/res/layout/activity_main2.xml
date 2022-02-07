@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@color/black"
+    android:backgroundTint="#33FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/tlo_2" />
+
+    <ImageView
+        android:id="@+id/imageView2_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medical_2" />
+
+    <TextView
+        android:id="@+id/textView1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:alpha="1"
+        android:text="Recover your Password"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2_2" />
+
+    <TextView
+        android:id="@+id/textView2_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Please enter your email bellow, we will send you a link to reset your password, make sure it its the same email you use when creating your account"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1_2" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress_2"
+        android:layout_width="211dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.7"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2_2" />
+
+    <Button
+        android:id="@+id/button1_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        app:cornerRadius="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress_2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress_2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

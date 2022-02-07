@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZapisOdczyt</string>
+    <string name="btn_save">ZAPISZ</string>
+    <string name="btn_load">WCZYTAJ</string>
+    <string name="editTextData">Wpisz wartośc do zapisu</string>
+</resources>
